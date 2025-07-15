@@ -27,7 +27,7 @@ The final piece of the code deals with creating materialized views and aggregate
 
 
 Financial Ratio and Stock Price History Codes
-The financial ratio and stock price history codes have the same foundation of the financial statemennt codes, and utilize the same method to dynamically generate company lists based on economic sector, as well as the rich metadata tags. Similar to the financial statement code, these codes also create some percent change and monthly summary materialized views, as well as aggregate tables to make comparative analysis between companies, industries, sectors, market cap groups and more kinds of grouping easier. 
+The financial ratio and stock price history codes have the same foundation as the financial statemennt codes, and utilize the same method to dynamically generate company lists based on economic sector, as well as the rich metadata tags. Similar to the financial statement code, these codes also create some percent change and monthly summary materialized views, as well as aggregate tables to make comparative analysis between companies, industries, sectors, market cap groups and more kinds of grouping easier. 
 
 
 
@@ -42,5 +42,5 @@ Dynamic Queries can be helpful for financial analyses like this, providing the a
 
 
 Part 4 of the ETL Pipeline
-In order for stakeholders to understand the key takeaways from any financial analysis done with this data, power BI dashboards can easily be created from data imoprted by sql, and in conjunction with python library like matplotlib and seaborn.  Like the SQL queries, this Power BI dashboard will gladly be provided upon request.
+In order for stakeholders to understand the key takeaways from any financial analysis done with this data, power BI dashboards can easily be created from data imoprted by sql, and in conjunction with python libraries like matplotlib and seaborn.  As with the SQL queries, this Power BI dashboard will gladly be provided upon request.
 
